@@ -30,23 +30,21 @@ trap 'printf "\n";stop' 2
 
 banner() {
 clear
-printf "\e[1;92m\n"
-printf "███████╗██╗   ██╗██╗     ███████╗███████╗ ██████╗  █████╗ ██████╗ \n"
-printf "╚══███╔╝██║   ██║██║     ██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗\n"
-printf "  ███╔╝ ██║   ██║██║     █████╗  █████╗  ██║   ██║███████║██████╔╝\n"
-printf " ███╔╝  ██║   ██║██║     ██╔══╝  ██╔══╝  ██║▄▄ ██║██╔══██║██╔══██╗\n"
-printf "███████╗╚██████╔╝███████╗██║     ███████╗╚██████╔╝██║  ██║██║  ██║\n"
-printf "╚══════╝ ╚═════╝ ╚══════╝╚═╝     ╚══════╝ ╚══▀▀═╝ ╚═╝  ╚═╝╚═╝  ╚═╝\n"
-printf "\e[0m\n"
+printf "\e[1;92m  _______  _______  _______  \e[0m\e[1;77m_______          _________ _______          \e[0m\n"
+printf "\e[1;92m (  ____ \(  ___  )(       )\e[0m\e[1;77m(  ____ )|\     /|\__   __/(  ____ \|\     /|\e[0m\n"
+printf "\e[1;92m | (    \/| (   ) || () () |\e[0m\e[1;77m| (    )|| )   ( |   ) (   | (    \/| )   ( |\e[0m\n"
+printf "\e[1;92m | |      | (___) || || || |\e[0m\e[1;77m| (____)|| (___) |   | |   | (_____ | (___) |\e[0m\n"
+printf "\e[1;92m | |      |  ___  || |(_)| |\e[0m\e[1;77m|  _____)|  ___  |   | |   (_____  )|  ___  |\e[0m\n"
+printf "\e[1;92m | |      | (   ) || |   | |\e[0m\e[1;77m| (      | (   ) |   | |         ) || (   ) |\e[0m\n"
+printf "\e[1;92m | (____/\| )   ( || )   ( |\e[0m\e[1;77m| )      | )   ( |___) (___/\____) || )   ( |\e[0m\n"
+printf "\e[1;92m (_______/|/     \||/     \|\e[0m\e[1;77m|/       |/     \|\_______/\_______)|/     \|\e[0m\n"
+printf " \e[1;93m CamPhish Ver 2.0 \e[0m \n"
+printf " \e[1;77m www.techchip.net | youtube.com/techchipnet \e[0m \n"
 
-printf "\e[1;93m ZULFEQAR v2.0 \e[0m\n"
-printf "\e[1;77m Author : Suleman Khan \e[0m\n"
-printf "\e[1;90m Cybersecurity awareness and camera threat research \e[0m\n"
-printf "\e[1;91m [!] WARNING: This tool is strictly for educational and authorized testing only. \e[0m\n"
-printf "\e[1;91m [!] Unauthorized access, surveillance, or misuse is illegal and punishable by law. \e[0m\n"
 printf "\n"
-}
 
+
+}
 
 dependencies() {
 command -v php > /dev/null 2>&1 || { echo >&2 "I require php but it's not installed. Install it. Aborting."; exit 1; }
