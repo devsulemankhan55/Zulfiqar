@@ -1,3 +1,6 @@
+#!/bin/bash
+# CamPhish v2.0
+# Powered by TechChip
 
 # Windows compatibility check
 if [[ "$(uname -a)" == *"MINGW"* ]] || [[ "$(uname -a)" == *"MSYS"* ]] || [[ "$(uname -a)" == *"CYGWIN"* ]] || [[ "$(uname -a)" == *"Windows"* ]]; then
@@ -28,18 +31,19 @@ trap 'printf "\n";stop' 2
 banner() {
 clear
 printf "\e[1;92m\n"
-printf "███████╗██╗   ██╗██╗     ███████╗██╗ ██████╗  █████╗ ██████╗ \n"
-printf "╚══███╔╝██║   ██║██║     ██╔════╝██║██╔═══██╗██╔══██╗██╔══██╗\n"
-printf "  ███╔╝ ██║   ██║██║     █████╗  ██║██║   ██║███████║██████╔╝\n"
-printf " ███╔╝  ██║   ██║██║     ██╔══╝  ██║██║▄▄ ██║██╔══██║██╔══██╗\n"
-printf "███████╗╚██████╔╝███████╗██║     ██║╚██████╔╝██║  ██║██║  ██║\n"
-printf "╚══════╝ ╚═════╝ ╚══════╝╚═╝     ╚═╝ ╚══▀▀═╝ ╚═╝  ╚═╝╚═╝  ╚═╝\n"
+printf "███████╗██╗   ██╗██╗     ███████╗███████╗ ██████╗  █████╗ ██████╗ \n"
+printf "╚══███╔╝██║   ██║██║     ██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗\n"
+printf "  ███╔╝ ██║   ██║██║     █████╗  █████╗  ██║   ██║███████║██████╔╝\n"
+printf " ███╔╝  ██║   ██║██║     ██╔══╝  ██╔══╝  ██║▄▄ ██║██╔══██║██╔══██╗\n"
+printf "███████╗╚██████╔╝███████╗██║     ███████╗╚██████╔╝██║  ██║██║  ██║\n"
+printf "╚══════╝ ╚═════╝ ╚══════╝╚═╝     ╚══════╝ ╚══▀▀═╝ ╚═╝  ╚═╝╚═╝  ╚═╝\n"
 printf "\e[0m\n"
 
-printf "\e[1;93m ZULFIQAR v2.0 \e[0m\n"
+printf "\e[1;93m ZULFEQAR v2.0 \e[0m\n"
 printf "\e[1;77m Author : Suleman Khan \e[0m\n"
 printf "\e[1;90m Cybersecurity awareness and camera threat research \e[0m\n"
-printf "\e[1;91m [!] Educational use only. Unauthorized surveillance is prohibited \e[0m\n"
+printf "\e[1;91m [!] WARNING: This tool is strictly for educational and authorized testing only. \e[0m\n"
+printf "\e[1;91m [!] Unauthorized access, surveillance, or misuse is illegal and punishable by law. \e[0m\n"
 printf "\n"
 }
 
